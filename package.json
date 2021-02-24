@@ -7,7 +7,8 @@
     "dev": "yarn serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "postversion": "node scripts/postversion.js"
+    "postversion": "node scripts/postversion.js",
+    "push-dist": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "vue": "^2.6.12",
