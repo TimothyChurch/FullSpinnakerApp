@@ -17,6 +17,7 @@
       LoadSections([
         'about',
         'paypal',
+        'email',
       ]),
     ],
 

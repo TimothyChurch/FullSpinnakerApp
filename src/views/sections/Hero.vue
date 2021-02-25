@@ -1,5 +1,8 @@
 <template>
-  <section id="hero">
+  <section
+    id="hero"
+    class="hero"
+  >
     <v-img
       :min-height="minHeight"
       :src="require('@/assets/living.jpg')"
@@ -73,3 +76,11 @@
     },
   }
 </script>
+
+<style scoped>
+
+.hero {
+  padding: 0px, 10px;
+}
+
+</style>
