@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d21f47f"],{d8c8:function(t,n,a){"use strict";a.r(n);var c=function(){var t=this,n=t.$createElement,a=t._self._c||n;return a("div",{attrs:{id:"app"}},[a("paypal-checkout",{attrs:{amount:"10.00",currency:"USD",client:t.paypal}})],1)},e=[],u=a("2877"),l={},p=Object(u["a"])(l,c,e,!1,null,null,null);n["default"]=p.exports}}]);
+//# sourceMappingURL=chunk-2d21f47f.f61b6797.js.map
