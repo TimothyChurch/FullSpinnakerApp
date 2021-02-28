@@ -44,16 +44,21 @@
               </base-btn>
             </router-link>
 
-            <!-- <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
+            <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
 
-            <base-btn
-              :ripple="false"
-              class="pa-1"
-              height="auto"
-              text
+            <router-link
+              to="about"
+              justify="center"
             >
-              Contact Us
-            </base-btn> -->
+              <base-btn
+                :ripple="false"
+                class="pa-1"
+                height="auto"
+                text
+              >
+                Contact Us
+              </base-btn>
+            </router-link>
           </div>
         </v-responsive>
       </v-container>
