@@ -11,6 +11,7 @@
     "push-dist": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
+    "emailjs-com": "^2.6.4",
     "vue": "^2.6.12",
     "vue-meta": "^2.3.3",
     "vue-paypal-checkout": "^3.2.0",

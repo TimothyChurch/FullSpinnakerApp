@@ -7,8 +7,10 @@
     fixed
   >
     <v-container>
-      <v-row>
-        <v-col
+      <v-row
+        justify="center"
+      >
+        <!-- <v-col
           cols="12"
           md="6"
         >
@@ -33,10 +35,10 @@
               </v-responsive>
             </template>
           </div>
-        </v-col>
+        </v-col> -->
 
         <v-col
-          class="text-center text-md-right"
+          class="text-center text-md-center"
           cols="12"
           md="6"
         >

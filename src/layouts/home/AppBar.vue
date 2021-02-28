@@ -84,8 +84,8 @@
 
   export default {
     name: 'HomeAppBar',
-
     data: () => ({
+      group: '',
       drawer: null,
       items: [
         'Home',

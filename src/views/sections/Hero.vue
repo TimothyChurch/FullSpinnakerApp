@@ -33,10 +33,12 @@
           </base-body>
 
           <div
-            :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
-            class="d-flex flex-wrap"
+            justify="center"
           >
-            <router-link to="performance">
+            <router-link
+              to="performance"
+              justify="center"
+            >
               <base-btn>
                 How could your property do?
               </base-btn>
