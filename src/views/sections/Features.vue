@@ -19,7 +19,7 @@
               v-bind="feature"
               align="center"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!
+              Lorem ipsum dolor seit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!
             </base-info-card>
           </v-col>
         </v-row>
