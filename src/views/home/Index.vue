@@ -18,6 +18,7 @@
         'hero',
         'features',
         'about',
+        'listings',
       ]),
     ],
 

@@ -36,6 +36,10 @@
             height="400"
             border="0"
           />
+          <div align="center">
+            <p>For a complete report and to discuss how we can beat these numbers</p>
+            <base-contact />
+          </div>
         </v-responsive>
       </v-container>
       <v-card-actions>
