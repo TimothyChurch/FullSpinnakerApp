@@ -84,6 +84,12 @@
             >
               Submit
             </base-btn>
+            <base-btn
+              type="submit"
+              value="reset"
+            >
+              Reset
+            </base-btn>
           </v-col>
         </v-row>
       </v-container>
@@ -134,6 +140,9 @@
           }, (error) => {
             console.log('Failed...', error)
           })
+      },
+      reset () {
+        this.$refs.form.reset()
       },
     },
   }

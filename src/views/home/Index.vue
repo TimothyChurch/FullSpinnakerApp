@@ -17,6 +17,7 @@
       LoadSections([
         'hero',
         'features',
+        'about',
       ]),
     ],
 

@@ -9,7 +9,7 @@
     >
       <base-img
         :src="require('@/assets/logo.png')"
-        class="mr-3 hidden-xs-only"
+        class="mr-3"
         contain
         max-width="46"
         width="100%"
@@ -42,10 +42,10 @@
         </v-tabs>
       </div>
 
-      <v-app-bar-nav-icon
+      <!-- <v-app-bar-nav-icon
         class="hidden-md-and-up"
         @click="drawer = true"
-      />
+      /> -->
     </v-app-bar>
 
     <v-navigation-drawer
@@ -88,9 +88,7 @@
       group: '',
       drawer: null,
       items: [
-        'Home',
-        'Performance',
-        'About',
+        // Log in will eventually go here
       ],
     }),
   }

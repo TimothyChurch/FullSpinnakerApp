@@ -24,11 +24,6 @@ const router = new Router({
           component: () => import('@/views/home/Index.vue'),
         },
         {
-          path: 'performance',
-          name: 'Performance',
-          component: () => import('@/views/performance/Index.vue'),
-        },
-        {
           path: 'about',
           name: 'About',
           component: () => import('@/views/about/Index.vue'),

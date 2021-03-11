@@ -35,30 +35,11 @@
           <div
             justify="center"
           >
-            <router-link
-              to="performance"
-              justify="center"
-            >
-              <base-btn>
-                How could your property do?
-              </base-btn>
-            </router-link>
+            <base-airdna />
 
             <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
 
-            <router-link
-              to="about"
-              justify="center"
-            >
-              <base-btn
-                :ripple="false"
-                class="pa-1"
-                height="auto"
-                text
-              >
-                Contact Us
-              </base-btn>
-            </router-link>
+            <base-contact />
           </div>
         </v-responsive>
       </v-container>

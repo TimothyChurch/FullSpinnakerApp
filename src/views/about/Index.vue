@@ -16,7 +16,6 @@
     mixins: [
       LoadSections([
         'about',
-        'email',
       ]),
     ],
 

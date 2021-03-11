@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "emailjs-com": "^2.6.4",
+    "vee-validate": "^3.4.5",
     "vue": "^2.6.12",
     "vue-meta": "^2.3.3",
     "vue-router": "^3.1.6",
